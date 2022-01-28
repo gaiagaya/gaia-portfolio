@@ -4,14 +4,17 @@
         <title> Gaia Corno - Portfolio & CV</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     </head>
     <body>
         <header class="neutral-theme">
             <h1> Hello my name is <span class="heading-highlight">Gaia</span>!<br>I'm a People Partner at Ably.<br></h1>
             <div>
-                <a href="#about" class="header-button">About Me</a>
-                <a href="#projects" class="header-button">My Projects</a> 
-                <a href="#contact" class="header-button">Contact Me</a>
+                <a href="#about" class="button">About Me</a>
+                <a href="#projects" class="button">My Projects</a> 
+                <a href="#contact" class="button">Contact Me</a>
             </div>
         </header>
         <main>
@@ -20,47 +23,67 @@
                 <div class="about-container">
                     <img src="gaia.png" class="about-img" alt="a photo of Gaia facing the camera at a slight angle, she is smiling and has long brown hair and is wearing earrings">
                     <div class="about-text">
-                        <p>I'm Gaia - my career started in people operations, and currently I'm the people partner for product & engineering teams at Ably. <br> <br> My day to day work consists of catching up with our product & engineering team members to get an understanding of how their time at Ably is going, partnering with team leads & enabling them to successfully manage their teams, and employee lifecycle events - from onboarding through to offboarding. I also have the opportunity to take on projects, like updating our parental leave policy, and (my favorite) nerding out in complex Google Sheets whenever possible. <br> <br> When I'm not working on Ably things, I love getting stuck into various hobbies - from creative writing, to embroidery, to making pizza from scratch, and recently I've started learning to code. Which is why this page exists. :D <br> </p>
-                        <a href="#projects" class="button">Things I've Worked On</a>
+                        <p>I'm Gaia - my career started in people operations, and currently I'm the people partner for product & engineering teams at Ably. <br> <br> My day to day work consists of catching up with our product & engineering team members to get an understanding of how their time at Ably is going, partnering with team leads & enabling them to successfully manage their teams, and employee lifecycle events - from onboarding through to offboarding. I also have the opportunity to take on projects, like updating our parental leave policy, and (my favorite) nerding out in complex Google Sheets whenever possible. <br> <br> When I'm not working on Ably things, I've started learning to code. Which is why this page exists. :D <br> </p>
+                        <a href="#projects" class="about-button">Things I've Worked On</a>
                     </div>
                 </div>
                 <blockquote>
-                    "something something something"
-                    <cite> - someone</cite>
+                    "She's like Janet from The Good Place."
+                    <cite> - colleague, 2019</cite>
                 </blockquote>
             </section>
             <section id="projects" class="neutral-theme">
                 <h2>My Projects</h2>
                 <article>
-                    <div class="article-text">
+                    <div class="article-container">
+                        <div class="article-text">
                      <h3>Creating a Gender Neutral Parental Leave</h3>
                         <p>
                             As part of my work at Ably, I lead a refresh of our parental leave policy, to make it more generous, more inclusive, and more compassionate.
                         </p>
-                    <div>
-                         <a href="https://drive.google.com/file/d/16dTunrwlB4GxAj-BQ-fX1svBcTY9DQud/view?usp=sharing" class="button">The Policy</a>
-                        <a href="https://ably.com/blog/ably-inclusive-parental-leave-policy" class="button">How We Wrote It</a></div>
-                    </div>
+                             <a href="https://drive.google.com/file/d/16dTunrwlB4GxAj-BQ-fX1svBcTY9DQud/view?usp=sharing" class="button">The Policy</a>
+                             <a href="https://ably.com/blog/ably-inclusive-parental-leave-policy" class="button">How We Wrote It</a>
+                   </div> 
+                   <img src="parental leave policy.png" class="article-img"> 
+                   </div>
                 </article>
                 <article>
-                    <div class="article-text">
+                    <div class="article-container">
+                        <div class="article-text">
                         <h3>Learning to Code!</h3>
                         <p>
                            I'm currently learning to code. :D This web portfolio is one of my first projects - I used html & css, taught by <a href="https://twitter.com/thisisjofrank">@thisisjofrank</a> with FrontEnd Foxes. 
                         </p> 
-                        <div>
                             <a href="https://www.vuevixens.org/about" class="button">About FrontEnd Foxes</a>
-                            <a href="#" class="button">Fork It On Github</a>
-                        </div>
+                            <a href="https://github.com/gaiagaya/gaia-portfolio.github.io" class="button">Fork It On Github</a>
                     </div>
+                    <img src="portfolio.png" class="article-img">
+                   <div>
                 </article>
-            </section>
-            <section id="contact">
-                <h2>Contact Me</h2>
-                <p>Find me on LinkedIn :)</p>
+                <article>
+                    <div class="article-container">
+                        <div class="article-text">
+                        <h3>Typing Game :D </h3>
+                        <p>
+                           I made a simple typing game with quotes from Disney's Hercules' Megara. I used JS, HTML, and CSS. I was taught by <a href="https://twitter.com/thisisjofrank">@thisisjofrank</a> with FrontEnd Foxes. 
+                        </p> 
+                            <a href="https://gaiagaya.github.io/megara-typing-game/" class="button">See it live!</a>
+                            <a href="https://github.com/gaiagaya/megara-typing-game" class="button">Fork It On Github</a>
+                    </div>
+                    <img src="typing game 2.png" class="article-img">
+                </div>
+                </article>
             </section>
         </main>
         <footer>
+            <ul class="social">
+                <li class="social item">
+                    <a href="https://www.linkedin.com/in/gaia-corno/" class="social-link linkedin">LinkedIn</a>
+                </li>
+                <li class="social item">
+                    <a href="https://github.com/gaiagaya" class="social-link github">GitHub</a>
+                </li>
+            </ul>
             <p>&copy; 2022 - Page Design by Gaia [+ credit to @thisisjofrank and FrontEnd Foxes]</p>
         </footer>
     </body>
